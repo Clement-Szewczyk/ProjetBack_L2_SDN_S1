@@ -1,0 +1,84 @@
+
+/* CSS pour mettre en forme le formulaire */ 
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.info label{
+    margin: 0 10px;
+    color: #900;
+}
+
+.info input{
+    border: 1px solid #900;
+    border-radius: 5px;
+    box-shadow: 1px 1px  #900;
+    color: #900;
+    text-align: center;
+}
+
+.info input:focus {
+    outline:#900;
+    border: 1px solid #900;
+    box-shadow: 1px 1px  #900;
+}
+
+input[type="submit"] {
+
+    width: 100px;
+    height: 30px;
+    background-color: #900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px  #900;
+}
+
+.bloque{
+    background-color: rgb(201, 201, 201);
+    color: white !important;
+    text-align: center;
+}
+
+.mdp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.mdp_submit{
+    width : 200px !important;
+}
+
+/* CSS pour la mise en forme des messages d'erreur et de succès.*/
+.error{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.succes{
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+

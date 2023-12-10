@@ -1,0 +1,70 @@
+/* L'ajout d'une sortie */
+
+h2{
+    color: #900;
+    font-size: 1.5em;
+}
+.add{
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contenu{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    color: #900;
+    border: #900 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+input[type = "text"]:focus, input[type = "date"]:focus {
+    outline: #900 2px solid;
+    
+}
+
+
+input[type = "submit"]{
+    background-color: white;
+    border: #900 2px solid;
+}
+
+input[type = "submit"]:hover{
+    background-color: #900;
+    color: white;
+}
+
+
+/* Les sortie */
+
+.sortie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}

@@ -1,0 +1,149 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form .info{
+    margin-bottom: 20px;
+}
+
+.form .info label{
+    font-size: 1em;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #900;
+}
+
+.form .info input[type="radio"]{
+    margin-right: 5px;
+}
+
+.form input[type="submit"]{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #900;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #900;
+    color: white;
+    font-weight: bold;
+}
+
+.form input[type="submit"]:hover{
+    background-color: white;
+    color: #900;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.add{
+    margin: 10px;
+}
+
+
+.hide{
+    display: none;
+}
+
+
+/* Ajout Musicien */
+
+.add_musicien{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add_musicien form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add_musicien form label{
+    font-size: 1em;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #900;
+}
+
+.add_musicien form input[type="text"], .add_musicien form input[type="password"], .add_musicien form input[type="email"]{
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #900;
+    border-radius: 20px;
+    padding: 5px;
+    color: #900 ;
+
+}
+
+
+
+.add_musicien form select{
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #900;
+    background-color: white;
+    color: #900;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.add_musicien form select::selection :hover{
+    color: white;
+    background-color: #900;
+}
+
+.add_musicien form input[type="date"]{
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #900;
+    border-radius: 20px;
+    padding: 5px;
+    color: #900;
+}
+
+
+
+.add_musicien form input[type="submit"]{
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #900;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #900;
+    color: white;
+    font-weight: bold;
+}
+
+.add_musicien form input[type="submit"]:hover{
+    background-color: white;
+    color: #900;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error_message p{
+    color: red;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}

@@ -1,0 +1,78 @@
+.add_instrument{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add_instrument form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add_instrument form label{
+    font-size: 1em;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #900;
+}
+
+.add_instrument form input[type="text"]{
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #900;
+    border-radius: 20px;
+    padding: 5px;
+    color: #900 ;
+
+}
+
+
+
+.add_instrument form select{
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #900;
+    background-color: white;
+    color: #900;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.add_instrument form select::selection :hover{
+    color: white;
+    background-color: #900;
+}
+
+
+
+.add_instrument form input[type="submit"]{
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #900;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #900;
+    color: white;
+    font-weight: bold;
+}
+
+.add_instrument form input[type="submit"]:hover{
+    background-color: white;
+    color: #900;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.erreur{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}

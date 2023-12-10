@@ -1,0 +1,27 @@
+/* CSS de la page des répétition */
+
+.info h3{
+    font-family: Tahoma;
+    font-size: 10pt;
+    letter-spacing: 1px;
+    margin-left: 10px;   
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: #900;
+}
+
+.prochain{
+    text-align: center;
+    color: #900;
+}

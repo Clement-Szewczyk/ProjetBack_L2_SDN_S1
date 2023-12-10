@@ -1,0 +1,69 @@
+/* Style pour le formulaire de modification */
+
+form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form input {
+    border: 1px solid #900;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 1px 1px  #900;
+}
+
+form input:focus {
+    outline:#900;
+    border: 1px solid #900;
+    box-shadow: 1px 1px  #900;
+}
+
+select {
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    color: #900;
+    border: 1px solid #900;
+    border-radius: 5px;
+    box-shadow: 1px 1px  #900;
+}
+
+select:focus {
+    outline:#900;
+    border: 1px solid #900;
+    box-shadow: 1px 1px  #900;
+}
+
+form input[type="submit"] {
+    width: 100px;
+    height: 30px;
+    background-color: #900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px  #900;
+}
+
+form input[type="submit"]:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #900;
+    border: 1px solid #900;
+}
+
+
+h2{
+    text-align: center;
+    color: #900;
+}
+
+.erreur{
+    color: red;
+    font-weight: bold;
+    text-align: center; 
+}

@@ -1,0 +1,46 @@
+h3{
+    text-align: start;
+    font-family: Verdana;   
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #900;
+}
+
+.directeur{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.presentation{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.presentation img{
+    height: 105px;
+
+}
+
+.presentation p{
+    font-family: Tahoma;
+    font-size: 10pt;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+.histo{
+    margin-top: 20px;
+}
+
+.histo p, .histo li{
+    font-family: Tahoma;
+    font-size: 10pt;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+.guy{
+    width: 2% !important    ;
+}

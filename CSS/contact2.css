@@ -1,0 +1,87 @@
+.why{
+    display: flex;
+    justify-content: center;
+}
+
+.option{
+    font-family: Tahoma;
+    font-size: 10pt;
+    letter-spacing: 1px;
+}
+
+.contact{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact form input[type="text"] , .contact form input[type="email"] , .contact form textarea{
+    border-color: #900;
+    border-radius: 10px;
+    padding: 10px;
+    color: #900;
+    width: 90%;
+}
+
+.contact form .info_personne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.contact form .info_personne input{
+    margin-left: 10px;
+}
+
+input[type="text"]:focus , input[type="email"]:focus , textarea:focus{
+    outline: none;
+    border-color: #900;
+    box-shadow: 0 0 10px #900;
+}
+
+.Submit{
+    border: 1px solid #900;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #900;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover , input[type="reset"]:hover{
+    background-color: white;
+    transition: 0.5s;
+    /*couleur de l'icone en blanc*/
+    color: #900;
+}
+
+
+
+.result {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #08d81c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #08d81c;
+    color: #08d81c;
+}
+
+.result .bad{
+    border: 1px solid #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+    color: #ff0000;
+}
