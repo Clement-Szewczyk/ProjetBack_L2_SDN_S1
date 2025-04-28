@@ -92,8 +92,7 @@ function Header($title){
         </ul>
     </nav>
     
-</body>
-</html>
+
 
 <?php
     }

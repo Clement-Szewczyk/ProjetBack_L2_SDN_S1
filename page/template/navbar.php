@@ -1,5 +1,5 @@
 <?php
-    session_start();
+    head();
 ?>
 
 <!-- Fichier contenant la Navbar du site. Il sera inclus dans chaque page du site. -->
